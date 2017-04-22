@@ -7,21 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		820C632C1E9E1655003A206D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 820C632B1E9E1655003A206D /* Info.plist */; };
+		820C63301E9E28C6003A206D /* HRToast+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820C632F1E9E28C6003A206D /* HRToast+UIView.swift */; };
 		824B844D1E9DF08D00767BC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824B844C1E9DF08D00767BC7 /* AppDelegate.swift */; };
 		824B844F1E9DF08D00767BC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824B844E1E9DF08D00767BC7 /* ViewController.swift */; };
 		824B84521E9DF08D00767BC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 824B84501E9DF08D00767BC7 /* Main.storyboard */; };
 		824B84541E9DF08D00767BC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 824B84531E9DF08D00767BC7 /* Assets.xcassets */; };
 		824B84571E9DF08D00767BC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 824B84551E9DF08D00767BC7 /* LaunchScreen.storyboard */; };
+		824B845F1E9DF28C00767BC7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 824B845E1E9DF28C00767BC7 /* MapKit.framework */; };
+		824B84611E9DF29600767BC7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 824B84601E9DF29600767BC7 /* GoogleService-Info.plist */; };
+		824B84641E9DF59D00767BC7 /* Helper Files.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824B84631E9DF59D00767BC7 /* Helper Files.swift */; };
+		824B84661E9DF5F800767BC7 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824B84651E9DF5F800767BC7 /* ConversationsViewController.swift */; };
+		824B846A1E9DF6ED00767BC7 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824B84691E9DF6ED00767BC7 /* NavigationViewController.swift */; };
+		824B846E1E9DF72600767BC7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824B846B1E9DF72600767BC7 /* User.swift */; };
+		824B846F1E9DF72600767BC7 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824B846C1E9DF72600767BC7 /* Message.swift */; };
+		824B84701E9DF72600767BC7 /* Conversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824B846D1E9DF72600767BC7 /* Conversation.swift */; };
+		824B84741E9DF8B600767BC7 /* VCCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824B84731E9DF8B600767BC7 /* VCCells.swift */; };
+		824B84761E9DFA0000767BC7 /* UserRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824B84751E9DFA0000767BC7 /* UserRegisterViewController.swift */; };
+		824B84781E9E00EB00767BC7 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824B84771E9E00EB00767BC7 /* ChatViewController.swift */; };
+		82E0F1C91E9E37DB009BCE5C /* newMessage.wav in Resources */ = {isa = PBXBuildFile; fileRef = 82E0F1C81E9E37DB009BCE5C /* newMessage.wav */; };
+		D31AFA85AA1E9BBA0400E44A /* Pods_FireBaseOneToOneChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA98B85A594FB1C177474CC2 /* Pods_FireBaseOneToOneChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04A2861B8BF99C99A5953930 /* Pods-FireBaseOneToOneChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireBaseOneToOneChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-FireBaseOneToOneChat/Pods-FireBaseOneToOneChat.release.xcconfig"; sourceTree = "<group>"; };
+		820C632B1E9E1655003A206D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		820C632F1E9E28C6003A206D /* HRToast+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HRToast+UIView.swift"; sourceTree = "<group>"; };
 		824B84491E9DF08D00767BC7 /* FireBaseOneToOneChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireBaseOneToOneChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		824B844C1E9DF08D00767BC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		824B844E1E9DF08D00767BC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		824B84511E9DF08D00767BC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		824B84531E9DF08D00767BC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		824B84561E9DF08D00767BC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		824B84581E9DF08D00767BC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		824B845E1E9DF28C00767BC7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		824B84601E9DF29600767BC7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		824B84631E9DF59D00767BC7 /* Helper Files.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Helper Files.swift"; sourceTree = "<group>"; };
+		824B84651E9DF5F800767BC7 /* ConversationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
+		824B84691E9DF6ED00767BC7 /* NavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		824B846B1E9DF72600767BC7 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		824B846C1E9DF72600767BC7 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		824B846D1E9DF72600767BC7 /* Conversation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Conversation.swift; sourceTree = "<group>"; };
+		824B84731E9DF8B600767BC7 /* VCCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCCells.swift; sourceTree = "<group>"; };
+		824B84751E9DFA0000767BC7 /* UserRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserRegisterViewController.swift; sourceTree = "<group>"; };
+		824B84771E9E00EB00767BC7 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		82E0F1C81E9E37DB009BCE5C /* newMessage.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = newMessage.wav; sourceTree = "<group>"; };
+		B26C953C125A6F49A0EBA224 /* Pods-FireBaseOneToOneChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireBaseOneToOneChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FireBaseOneToOneChat/Pods-FireBaseOneToOneChat.debug.xcconfig"; sourceTree = "<group>"; };
+		FA98B85A594FB1C177474CC2 /* Pods_FireBaseOneToOneChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FireBaseOneToOneChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +60,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				824B845F1E9DF28C00767BC7 /* MapKit.framework in Frameworks */,
+				D31AFA85AA1E9BBA0400E44A /* Pods_FireBaseOneToOneChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E396185FD7557753ECF5C5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B26C953C125A6F49A0EBA224 /* Pods-FireBaseOneToOneChat.debug.xcconfig */,
+				04A2861B8BF99C99A5953930 /* Pods-FireBaseOneToOneChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		76064ADEB526EC4D8C682F58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				824B845E1E9DF28C00767BC7 /* MapKit.framework */,
+				FA98B85A594FB1C177474CC2 /* Pods_FireBaseOneToOneChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		824B84401E9DF08D00767BC7 = {
 			isa = PBXGroup;
 			children = (
+				824B84601E9DF29600767BC7 /* GoogleService-Info.plist */,
 				824B844B1E9DF08D00767BC7 /* FireBaseOneToOneChat */,
 				824B844A1E9DF08D00767BC7 /* Products */,
+				2E396185FD7557753ECF5C5F /* Pods */,
+				76064ADEB526EC4D8C682F58 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +109,64 @@
 			isa = PBXGroup;
 			children = (
 				824B844C1E9DF08D00767BC7 /* AppDelegate.swift */,
-				824B844E1E9DF08D00767BC7 /* ViewController.swift */,
-				824B84501E9DF08D00767BC7 /* Main.storyboard */,
+				824B84711E9DF72B00767BC7 /* Model */,
+				824B84621E9DF58F00767BC7 /* Helper */,
+				824B84791E9E0F9E00767BC7 /* Controllers */,
+				824B847A1E9E0FB500767BC7 /* View */,
 				824B84531E9DF08D00767BC7 /* Assets.xcassets */,
-				824B84551E9DF08D00767BC7 /* LaunchScreen.storyboard */,
-				824B84581E9DF08D00767BC7 /* Info.plist */,
+				820C632B1E9E1655003A206D /* Info.plist */,
+				82E0F1C81E9E37DB009BCE5C /* newMessage.wav */,
 			);
 			path = FireBaseOneToOneChat;
+			sourceTree = "<group>";
+		};
+		824B84621E9DF58F00767BC7 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				820C632F1E9E28C6003A206D /* HRToast+UIView.swift */,
+				824B84631E9DF59D00767BC7 /* Helper Files.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		824B84711E9DF72B00767BC7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				824B846B1E9DF72600767BC7 /* User.swift */,
+				824B846C1E9DF72600767BC7 /* Message.swift */,
+				824B846D1E9DF72600767BC7 /* Conversation.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		824B84721E9DF8AD00767BC7 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				824B84731E9DF8B600767BC7 /* VCCells.swift */,
+			);
+			name = CustomCells;
+			sourceTree = "<group>";
+		};
+		824B84791E9E0F9E00767BC7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				824B84771E9E00EB00767BC7 /* ChatViewController.swift */,
+				824B84751E9DFA0000767BC7 /* UserRegisterViewController.swift */,
+				824B84691E9DF6ED00767BC7 /* NavigationViewController.swift */,
+				824B84651E9DF5F800767BC7 /* ConversationsViewController.swift */,
+				824B844E1E9DF08D00767BC7 /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		824B847A1E9E0FB500767BC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				824B84721E9DF8AD00767BC7 /* CustomCells */,
+				824B84501E9DF08D00767BC7 /* Main.storyboard */,
+				824B84551E9DF08D00767BC7 /* LaunchScreen.storyboard */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 824B845B1E9DF08D00767BC7 /* Build configuration list for PBXNativeTarget "FireBaseOneToOneChat" */;
 			buildPhases = (
+				E7A1B0BD830D0B341C3318FD /* [CP] Check Pods Manifest.lock */,
 				824B84451E9DF08D00767BC7 /* Sources */,
 				824B84461E9DF08D00767BC7 /* Frameworks */,
 				824B84471E9DF08D00767BC7 /* Resources */,
+				1A200CBE9C898677F6100BE7 /* [CP] Embed Pods Frameworks */,
+				ED5C5EE70674A6A8C52CCBFA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +205,11 @@
 					824B84481E9DF08D00767BC7 = {
 						CreatedOnToolsVersion = 8.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -124,20 +237,81 @@
 			buildActionMask = 2147483647;
 			files = (
 				824B84571E9DF08D00767BC7 /* LaunchScreen.storyboard in Resources */,
+				82E0F1C91E9E37DB009BCE5C /* newMessage.wav in Resources */,
+				824B84611E9DF29600767BC7 /* GoogleService-Info.plist in Resources */,
 				824B84541E9DF08D00767BC7 /* Assets.xcassets in Resources */,
+				820C632C1E9E1655003A206D /* Info.plist in Resources */,
 				824B84521E9DF08D00767BC7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A200CBE9C898677F6100BE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FireBaseOneToOneChat/Pods-FireBaseOneToOneChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7A1B0BD830D0B341C3318FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ED5C5EE70674A6A8C52CCBFA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FireBaseOneToOneChat/Pods-FireBaseOneToOneChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		824B84451E9DF08D00767BC7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				824B84701E9DF72600767BC7 /* Conversation.swift in Sources */,
 				824B844F1E9DF08D00767BC7 /* ViewController.swift in Sources */,
+				824B84781E9E00EB00767BC7 /* ChatViewController.swift in Sources */,
+				824B84761E9DFA0000767BC7 /* UserRegisterViewController.swift in Sources */,
+				824B84741E9DF8B600767BC7 /* VCCells.swift in Sources */,
 				824B844D1E9DF08D00767BC7 /* AppDelegate.swift in Sources */,
+				824B846E1E9DF72600767BC7 /* User.swift in Sources */,
+				824B84641E9DF59D00767BC7 /* Helper Files.swift in Sources */,
+				820C63301E9E28C6003A206D /* HRToast+UIView.swift in Sources */,
+				824B846A1E9DF6ED00767BC7 /* NavigationViewController.swift in Sources */,
+				824B84661E9DF5F800767BC7 /* ConversationsViewController.swift in Sources */,
+				824B846F1E9DF72600767BC7 /* Message.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +430,7 @@
 		};
 		824B845C1E9DF08D00767BC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B26C953C125A6F49A0EBA224 /* Pods-FireBaseOneToOneChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FireBaseOneToOneChat/Info.plist;
@@ -268,6 +443,7 @@
 		};
 		824B845D1E9DF08D00767BC7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04A2861B8BF99C99A5953930 /* Pods-FireBaseOneToOneChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FireBaseOneToOneChat/Info.plist;
@@ -297,6 +473,7 @@
 				824B845D1E9DF08D00767BC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
